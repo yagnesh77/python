@@ -1,0 +1,8 @@
+s1 =frozenset(["yagnesh","nayi"])
+s2 =frozenset(["yagnesh","prem007"])
+print(s1)
+print(s2)
+print(s1.isdisjoint(s2))
+print(s1.difference(s2))
+print(s2.difference(s1))
+print(s1|s2)

@@ -1,0 +1,6 @@
+s1 =frozenset(["yagnesh","nayi"])
+s2 =frozenset(["yagnesh","prem007"])
+print(s2.difference(s1))
+print(s1.difference(s2))
+print(s1-s2)
+print(s2-s1)

@@ -1,0 +1,6 @@
+s1 =set([0,1,7,77])
+print("set is:",s1)
+s1.discard(0)
+print("o element delete :",s1)
+s1.discard(1)
+print("1 element delete",s1)
