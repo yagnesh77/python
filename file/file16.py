@@ -1,0 +1,5 @@
+fname=input('Enter a file name: ')
+f=open(fname,'r')
+print(f.closed)
+f.close()
+print(f.closed)
